@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.quote-box {
+  margin-bottom: 20px;
+}
+
+#quote {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+#author {
+  margin-top: 10px;
+  font-style: italic;
+  color: #777;
+}
+
+button {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: #357ab8;
+}
+
+#tweet-quote {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #1da1f2;
+  font-size: 0.9rem;
+}
