@@ -17,6 +17,7 @@ Clone the repo and start a local server:
 git clone https://github.com/kaitlin12210/random-quote-generator.git
 cd random-quote-generator
 python3 -m http.server 8000
+```
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
